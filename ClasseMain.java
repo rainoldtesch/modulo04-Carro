@@ -4,7 +4,7 @@ public class ClasseMain {
 
     public static void main(String[] args) {
 
-        Carro carro = new Carro("Volkswagen", "Polo", "200 TSi", 5, 4, 16, 4, "9B550704M", 2020, "Flex", "3 cilindros 1.0 turbo");
+        Carro carro = new Carro(novaMontadora: "Volkswagen", novoNomeCarro: "Polo", novaVersaoCarro: "200 TSi", novaQuantidadePneus: 5, novaQuantidadeCalotas: 4, novaQuantidadeParafusosPneus: 16, novoNumeroPortas: 4, novoNumeroChassi: "9B550704M", novoAnoFabricacao: 2020, novoCombustivel: "Flex", novoMotor: "3 cilindros 1.0 turbo");
 
         System.out.println( carro.getMontadora() + " " + carro.getNomeCarro() + " " + carro.getVersaoCarro());
         System.out.println(" Motor do carro = " + carro.getMotor());
